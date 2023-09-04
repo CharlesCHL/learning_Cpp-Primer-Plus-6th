@@ -1,0 +1,23 @@
+
+
+
+1. 代码量较小，且不包含递归
+
+2. 
+	a. void song(const char* name, int times = 1);
+	b. 不作修改
+	c. void song(const char* name = "O, My Papa", int times = 1);	//默认值必须按照从右到左的顺序
+
+3. 
+1) 
+void 
+
+
+
+
+
+
+
+
+
+

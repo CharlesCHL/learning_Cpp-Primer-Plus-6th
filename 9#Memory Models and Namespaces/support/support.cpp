@@ -1,8 +1,13 @@
 
 
-#include "support.h"
+#include <iostream>
 
 using namespace std;
+
+extern double warming;
+
+void update(double);
+void local(void);
 
 void update(double dt)
 {

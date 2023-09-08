@@ -1,8 +1,8 @@
 
-// 10.4
+// 10.7
 
-#ifndef STOCK10_H_
-#define STOCK10_H_
+#ifndef STOCK20_H_
+#define STOCK20_H_
 
 #include <string>
 
@@ -23,7 +23,7 @@ class Stock
 		void sell(long, double);
 		void update(double);
 		void show() const;
-
+		const Stock& topval(const Stock&) const; 
 };
 
 #endif
